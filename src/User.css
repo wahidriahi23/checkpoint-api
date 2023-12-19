@@ -1,0 +1,49 @@
+.User {
+    background-color: rgb(3, 58, 107);
+    /* box-shadow: 0 0 5px cyan,
+                0 0 25px cyan; */
+    border-radius: 20px;
+    width: 40%;
+    min-width: 500px;
+    margin: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  .User__infos {
+    width: 95%;
+    position: relative;
+  }
+  .User__infos--id {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgb(3, 58, 107);
+    background-color: white;
+    border-radius: 50%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+  }
+  .User__Moreinfos1,
+  .User__Moreinfos2-main {
+    width: 90%;
+    padding: 0px 30px;
+    margin: 10px 50px 10px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .User__Moreinfos2 {
+    width: 90%;
+  }
+  .User__infos-font {
+    font-size: 13px;
+  }
+  
